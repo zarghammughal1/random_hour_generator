@@ -1,3 +1,7 @@
+"""
+    This code will generate the random hours timestamp between the ranges of date and then write in the excel file.
+"""
+
 import pandas as pd
 from random import randrange
 
