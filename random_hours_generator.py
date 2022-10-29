@@ -14,7 +14,6 @@ d1 = {'Time' : pd.date_range(start = '10-10-2022', end = '11-10-2022', freq = f'
 d2 = data.assign(DateAndTimeRecent = pd.DataFrame(d1))
 print(d2)
 
-
 # Write data in excel file
 with pd.ExcelWriter("filename.xlsx") as writer:
     d2.to_excel(writer)
